@@ -22,8 +22,8 @@ var server = app.listen(process.env.PORT || 8080, function () {
 });
 
 var conn = mysql.createConnection({
-    user:  "bhumihar",
-    password: "adityaraj",
+    user:  "username",
+    password: "password",
     server: "127.0.0.1",
     database:"Contact"
 });
